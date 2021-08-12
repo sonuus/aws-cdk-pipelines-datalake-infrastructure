@@ -82,7 +82,7 @@ class PipelineStack(cdk.Stack):
                             'secretsmanager:*',
                         ],
                         resources=[
-                            f'arn:aws:secretsmanager:{self.region}:{self.account}:secret:/DataLake/*',
+                            f'arn:aws:secretsmanager:{self.region}:{self.account}:secret:/DataLake1/*',
                         ],
                     ),
                     iam.PolicyStatement(
